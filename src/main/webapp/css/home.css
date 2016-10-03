@@ -1,0 +1,148 @@
+
+
+@media (max-device-width:360px){
+
+    ul .navbar-nav{
+        background: red;
+    }
+
+}
+
+@media (max-device-width:1368px) {
+    ul .navbar-nav{
+        padding-left: 300px; padding-top: 10px;
+    }
+}
+
+.btn-primary{
+    background: #e2c002;
+    color:white;
+}
+.btn-primary:focus{
+    background: #e2cc22;
+}
+
+.btn-primary:required{
+    background: red;
+}
+
+.btn-primary:hover{
+    background: #efcc20;
+}
+
+/*.modal-header{
+    background: #e2c002;
+}
+.modal-footer{
+    background: #e2c002;
+}*/
+@font-face{
+    font-family: 'Myriad';
+    src: url('../fonts/myriad.otf');
+}
+
+#collabse:pressed{
+    background:red;
+}
+
+#logo-bar{
+    /*background: red;*/
+}
+
+/*body{
+    width: 1368px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}*/
+/*body #aja-content{
+    background-image:url('../res/images/high_res_background.png');
+    background-position: center;
+}*/
+
+#logo-bar{
+    background-image: url('../res/images/title_background.png');
+    box-shadow: 0 10px 6px -6px #777;
+    
+
+}
+
+#logo-c{
+   
+    background: white;
+    width: 276px;
+    height: 200px;
+}
+
+
+
+#gold-navbar{
+    background: #e2c002;
+    color: white;
+    font-family: 'Myriad';
+    font-weight: normal;
+    font-size:20px;
+}
+
+#gold-navbar a{
+        color:white;
+}
+
+
+.dropdown-menu a:hover{
+    color: blue;
+}
+
+
+.dropdown-menu{
+    background: #e2c002;
+}
+
+.dropdown-menu .divider{
+    background: #ecc;
+}
+.dropdown-menu li,.dropdown,.dropdown-toggle{
+    background: #e2c002;
+}
+
+/*.dropdown-toggle {
+    background: red;
+}*/
+
+.dropdown-menu li a:hover{
+    
+    background: #efcc20;
+}
+
+#gold-navbar .active a{
+    background: #e2c002;
+}
+
+body{
+  
+}
+
+/*#nav-bar{
+    width: 100%;
+    background: #e2c002;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#nav-bar ul{
+    text-align: center;
+    float: right;
+    
+
+}
+
+#nav-bar ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+    padding-right: 40px;
+    font-family: 'Myriad';
+    font-size:25.51px;
+    color:white;
+}*/
